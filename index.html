@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Игра на JavaScript</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="canvas">
+			<canvas id="game" width="608" height="608"></canvas>
+		</div>
+		<div class="cords">
+			<div class="cords__center">
+				<span id="c_x"></span>
+				<br><br>
+				<span id="c_y"></span>
+			</div>
+			<br>
+			<div class="cords__snake">
+				<span id="x"></span>
+				<span id="y"></span>
+			</div>
+		</div>
+		<div class="touch">
+			<div class="button-1"><button id="button-left">←</button></div>
+			<div class="button-2"><button id="button-up">↑</button></div>
+			<div class="button-3"><button id="button-down">↓</button></div>
+			<div class="button-4"><button id="button-right">→</button></div>
+		</div>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+</html>
